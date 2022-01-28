@@ -1,3 +1,57 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5em;
+}
+
+.navigation img {
+  width: 25em;
+  margin-left: 2em;
+}
+
+.navigation ul {
+  display: flex;
+}
+
+.navigation li {
+  list-style: none;
+  margin: 0 2em;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #1a1a1a;
+  font-size: 2em;
+}
+
+.spread {
+  background-image: url('/images/landing.jpg');
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 8em;
+  color: white;
+}
+
 /*
 Colors:
 
